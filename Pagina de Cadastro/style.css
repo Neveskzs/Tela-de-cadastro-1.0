@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #34729c, #6cb1da);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+.container {
+  background-color: #fff;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-cadastro h2 {
+  margin-bottom: 24px;
+  color: #222;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.form-cadastro label {
+  display: block;
+  margin-bottom: 6px;
+  color: #444;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.form-cadastro input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.form-cadastro input:focus {
+  border-color: #4f6ef7;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(79, 110, 247, 0.2);
+}
+
+.form-cadastro button {
+  width: 100%;
+  padding: 14px;
+  background-color: #4f6ef7;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-cadastro button:hover {
+  background-color: #3b54c7;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #444;
+}
+
+.login-link a {
+  color: #4f6ef7;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
